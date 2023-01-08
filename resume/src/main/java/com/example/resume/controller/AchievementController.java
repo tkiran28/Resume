@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.resume.model.Achievements;
 import com.example.resume.service.AchievementService;
 
-@CrossOrigin(origins="http://localhost:4200", allowedHeaders="*")
+@CrossOrigin(origins="http://resumeui.s3-website.ap-south-1.amazonaws.com", allowedHeaders="*")
 @RestController
 @RequestMapping("/achievement")
 public class AchievementController {

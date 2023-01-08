@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.resume.model.Certifications;
 import com.example.resume.service.CertificationService;
 
-@CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "*")
+@CrossOrigin(origins = "http://resumeui.s3-website.ap-south-1.amazonaws.com", allowedHeaders = "*")
 @RestController
 @RequestMapping("/certification")
 public class CertificationController {

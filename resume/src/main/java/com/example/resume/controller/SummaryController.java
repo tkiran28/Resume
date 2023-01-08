@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.resume.model.Summary;
 import com.example.resume.service.SummaryService;
 
-@CrossOrigin(origins="http://localhost:4200", allowedHeaders="*")
+@CrossOrigin(origins="http://resumeui.s3-website.ap-south-1.amazonaws.com", allowedHeaders="*")
 @RestController
 @RequestMapping("/summary")
 public class SummaryController {
