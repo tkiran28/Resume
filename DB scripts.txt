@@ -1,0 +1,37 @@
+insert into resume.summary values(1,'Proficient Software Engineer having strong experience in building financial technology solutions. During my
+journey, I have collaborated with global teams following scaled agile practices to develop solutions. I am
+dedicated towards enhancing my skills by learning with the ability to learn quickly with a good understanding.');
+
+insert into resume.achievements values(1,'Dedication & Commitment Towards Daan Utsav');
+insert into resume.certifications values(1,'AWS Certified Cloud Practitioner','May-2022');
+
+insert into resume.education values (1,'8.1','Bachelor of Engineering in Information Technology','Mumbai University','2020');
+
+insert into resume.work_experience(work_experience_id,companyname,description,designation,year_of_experience)
+values(1,'LTIMindtree','Java development in banking/digital payments domain for clients in Nordics.Development of integration web services for multiple financial institutions.Collaborate with Product owners to understand new business requirements and modeling technical solutions in project to deliver them successfully following SAFe agile practices.Involvement in resolving production issue, incident monitoring, scrum ceremonies.Performing peer code reviews to identify technical and logical errors.','Software Engineer','3');
+
+ALTER TABLE resume.work_experience
+MODIFY description
+varchar(1000);
+
+insert into resume.skills values(1,'Tools','Jira');
+insert into resume.skills values(2,'Tools','Confluence');
+insert into resume.skills values(3,'Tools','Miro Board');
+insert into resume.skills values(4,'Tools','SVN/Git');
+insert into resume.skills values(5,'Tools','Jenkins');
+insert into resume.skills values(6,'Tools','Maven');
+insert into resume.skills values(7,'Tools','Oracle JDeveloper');
+insert into resume.skills values(8,'Technologies','Docker');
+insert into resume.skills values(9,'Technologies','Kubernetes');
+insert into resume.skills values(10,'Technologies','Java');
+insert into resume.skills values(11,'Others','XML/XSLT');
+insert into resume.skills values(12,'Framework','Spring boot');
+insert into resume.skills values(13,'Framework','Angular');
+insert into resume.skills values(14,'Technologies','Microservices');
+insert into resume.skills values(15,'Technologies','JPA/Hibernate');
+insert into resume.skills values(16,'Technologies','SOAP web services');
+insert into resume.skills values(17,'Technologies','RestAPI');
+insert into resume.skills values(18,'Others','Scaled Agile (SAFe)');
+insert into resume.skills values(19,'Tools','Bitbucket');
+
+
